@@ -1,0 +1,31 @@
+﻿<div class="container mt-4">
+    <h3 class="mb-4">Aylık Kira Listesi</h3>
+
+    <div class="row mb-3">
+        <div class="col-md-2">
+            <input type="number" id="yearInput" class="form-control" placeholder="Yıl" value="2025" />
+        </div>
+        <div class="col-md-2">
+            <input type="number" id="monthInput" class="form-control" placeholder="Ay" value="1" min="1" max="12" />
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary" id="btnFilter">Filtrele</button>
+        </div>
+    </div>
+
+    <table id="monthlyRentTable" class="table table-bordered table-striped w-100">
+        <thead class="table-dark">
+            <tr>
+                <th>Şirket Adı</th>
+                <th>Vergi No</th>
+                <th>Kat</th>
+                <th>Cephe</th>
+                <th>Kira Tipi</th>
+                <th>Ay</th>
+                <th>Yıl</th>
+                <th>Tutar (₺)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>

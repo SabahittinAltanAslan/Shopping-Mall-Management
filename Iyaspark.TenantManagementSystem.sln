@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iyaspark.API", "Iyaspark.API\Iyaspark.API.csproj", "{55A1EA00-BE98-4AC0-9B16-BC6B5D64226E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iyaspark.Application", "Iyaspark.Application\Iyaspark.Application.csproj", "{CDB41339-ACE9-4FF7-81CD-C39B53D4A452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iyaspark.Domain", "Iyaspark.Domain\Iyaspark.Domain.csproj", "{766FCB31-47F7-4223-9510-D70021F7BBD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iyaspark.Infrastructure", "Iyaspark.Infrastructure\Iyaspark.Infrastructure.csproj", "{BD41AC2E-7374-4335-976D-369C561371F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iyaspark.Persistence", "Iyaspark.Persistence\Iyaspark.Persistence.csproj", "{48614200-A253-44B5-AD2E-471A98FB5AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iyaspark.SharedKernel", "Iyaspark.SharedKernel\Iyaspark.SharedKernel.csproj", "{6A948C92-797B-4382-8C1B-6C82CA0EEB0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55A1EA00-BE98-4AC0-9B16-BC6B5D64226E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A1EA00-BE98-4AC0-9B16-BC6B5D64226E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A1EA00-BE98-4AC0-9B16-BC6B5D64226E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A1EA00-BE98-4AC0-9B16-BC6B5D64226E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB41339-ACE9-4FF7-81CD-C39B53D4A452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB41339-ACE9-4FF7-81CD-C39B53D4A452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB41339-ACE9-4FF7-81CD-C39B53D4A452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB41339-ACE9-4FF7-81CD-C39B53D4A452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766FCB31-47F7-4223-9510-D70021F7BBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766FCB31-47F7-4223-9510-D70021F7BBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766FCB31-47F7-4223-9510-D70021F7BBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766FCB31-47F7-4223-9510-D70021F7BBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD41AC2E-7374-4335-976D-369C561371F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD41AC2E-7374-4335-976D-369C561371F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD41AC2E-7374-4335-976D-369C561371F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD41AC2E-7374-4335-976D-369C561371F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48614200-A253-44B5-AD2E-471A98FB5AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48614200-A253-44B5-AD2E-471A98FB5AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48614200-A253-44B5-AD2E-471A98FB5AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48614200-A253-44B5-AD2E-471A98FB5AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A948C92-797B-4382-8C1B-6C82CA0EEB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A948C92-797B-4382-8C1B-6C82CA0EEB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A948C92-797B-4382-8C1B-6C82CA0EEB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A948C92-797B-4382-8C1B-6C82CA0EEB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E9C2EC6-D1A5-4FC5-977D-5521A23DC040}
+	EndGlobalSection
+EndGlobal

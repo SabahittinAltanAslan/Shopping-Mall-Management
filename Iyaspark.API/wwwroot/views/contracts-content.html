@@ -1,0 +1,103 @@
+﻿<div class="container mt-4">
+    <h4>Sözleşmeler</h4>
+    <button class="btn btn-primary mb-3" id="btnOpenModal">+ Yeni Sözleşme</button>
+    <table class="table table-bordered" id="contractTable">
+        <thead>
+            <tr>
+                <th>Kiracı</th>
+                <th>Başlangıç</th>
+                <th>Bitiş</th>
+                <th>Kira Tipi</th>
+                <th>PDF</th>
+                <th>İşlem</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="contractModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <form id="contractForm" enctype="multipart/form-data">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sözleşme</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="contractId" />
+
+                    <div class="mb-3">
+                        <label for="tenantId" class="form-label">Kiracı</label>
+                        <select id="tenantId" class="form-select" required></select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="startDate" class="form-label">Başlangıç Tarihi</label>
+                        <input type="date" id="startDate" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="endDate" class="form-label">Bitiş Tarihi</label>
+                        <input type="date" id="endDate" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="rentType" class="form-label">Kira Tipi</label>
+                        <select id="rentType" class="form-select" required>
+                            <option value="0">Sabit</option>
+                            <option value="1">Ciro</option>
+                            <option value="2">Sabit + Ciro</option>
+                            <option value="3">Kademeli</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3 container-fixedRentAmount">
+                        <label for="fixedRentAmount" class="form-label">Sabit Kira Tutarı</label>
+                        <input type="text" id="fixedRentAmount" class="form-control" />
+                    </div>
+
+                    <div class="mb-3 container-revenuePercentage">
+                        <label for="revenuePercentage" class="form-label">Ciro Yüzdesi</label>
+                        <input type="text" id="revenuePercentage" class="form-control" />
+                    </div>
+
+                    <div class="mb-3 container-revenueTarget">
+                        <label for="revenueTarget" class="form-label">Ciro Hedefi</label>
+                        <input type="text" id="revenueTarget" class="form-control" />
+                    </div>
+
+                    <div class="mb-3 container-aboveTargetPercentage">
+                        <label for="aboveTargetPercentage" class="form-label">Üst Hedef Yüzdesi</label>
+                        <input type="text" id="aboveTargetPercentage" class="form-control" />
+                    </div>
+
+                    <div class="mb-3 container-belowTargetPercentage">
+                        <label for="belowTargetPercentage" class="form-label">Alt Hedef Yüzdesi</label>
+                        <input type="text" id="belowTargetPercentage" class="form-control" />
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="hasExtraStorage" />
+                        <label class="form-check-label" for="hasExtraStorage">Ekstra Depo</label>
+                    </div>
+
+                    <div class="mb-3 container-extraStorageRent">
+                        <label for="extraStorageRent" class="form-label">Depo Kira Tutarı</label>
+                        <input type="text" id="extraStorageRent" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="contractFile" class="form-label">Sözleşme PDF</label>
+                        <input type="file" id="contractFile" class="form-control" accept=".pdf" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

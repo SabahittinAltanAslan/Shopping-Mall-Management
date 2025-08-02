@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\bin\Debug\net8.0\Iyaspark.SharedKernel.deps.json
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\bin\Debug\net8.0\Iyaspark.SharedKernel.dll
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\bin\Debug\net8.0\Iyaspark.SharedKernel.pdb
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\obj\Debug\net8.0\Iyaspark.SharedKernel.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\obj\Debug\net8.0\Iyaspark.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\obj\Debug\net8.0\Iyaspark.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\obj\Debug\net8.0\Iyaspark.SharedKernel.AssemblyInfo.cs
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\obj\Debug\net8.0\Iyaspark.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\obj\Debug\net8.0\Iyaspark.SharedKernel.dll
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\obj\Debug\net8.0\refint\Iyaspark.SharedKernel.dll
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\obj\Debug\net8.0\Iyaspark.SharedKernel.pdb
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.SharedKernel\obj\Debug\net8.0\ref\Iyaspark.SharedKernel.dll

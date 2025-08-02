@@ -1,0 +1,79 @@
+﻿<div class="container mt-5">
+    <h3 class="mb-4">Teminatlar</h3>
+
+    <button class="btn btn-success mb-3" onclick="openCreateModal()">+ Yeni Teminat</button>
+
+    <div class="table-responsive">
+        <table class="table table-bordered" id="guaranteeTable">
+            <thead>
+                <tr>
+                    <th>Firma</th>
+                    <th>Tip</th>
+                    <th>Tutar</th>
+                    <th>Döviz</th>
+                    <th>Alınış Tarihi</th>
+                    <th>İade Edildi mi?</th>
+                    <th>Açıklama</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="guaranteeModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <form id="guaranteeForm">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitle">Yeni Teminat</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+                    </div>
+                    <div class="modal-body row g-3">
+                        <input type="hidden" id="guaranteeId">
+
+                        <div class="col-md-6">
+                            <label class="form-label">Kiracı</label>
+                            <select class="form-select" id="tenantId" required></select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Tip</label>
+                            <select class="form-select" id="type" required></select>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label">Tutar</label>
+                            <input type="number" class="form-control" id="amount" required>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label">Döviz</label>
+                            <select class="form-select" id="currencyType" required></select>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label">Alınış Tarihi</label>
+                            <input type="date" class="form-control" id="receivedDate" required>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label class="form-label">Açıklama</label>
+                            <textarea class="form-control" id="description"></textarea>
+                        </div>
+
+                        <div class="col-md-12 form-check mt-2">
+                            <input class="form-check-input" type="checkbox" id="isReturned">
+                            <label class="form-check-label">İade Edildi</label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

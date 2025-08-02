@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\bin\Release\net8.0\Iyaspark.Application.deps.json
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\bin\Release\net8.0\Iyaspark.Application.dll
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\bin\Release\net8.0\Iyaspark.Application.pdb
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\bin\Release\net8.0\Iyaspark.Domain.dll
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\bin\Release\net8.0\Iyaspark.SharedKernel.dll
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\bin\Release\net8.0\Iyaspark.Domain.pdb
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\bin\Release\net8.0\Iyaspark.SharedKernel.pdb
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\Iyaspark.Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\Iyaspark.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\Iyaspark.Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\Iyaspark.Application.AssemblyInfo.cs
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\Iyaspark.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\Iyaspark.119D9D66.Up2Date
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\Iyaspark.Application.dll
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\refint\Iyaspark.Application.dll
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\Iyaspark.Application.pdb
+C:\Users\User\Desktop\Developer\Github-Repository\Iyaspark-Yonetim-main\Iyaspark.TenantManagementSystem\Iyaspark.Application\obj\Release\net8.0\ref\Iyaspark.Application.dll

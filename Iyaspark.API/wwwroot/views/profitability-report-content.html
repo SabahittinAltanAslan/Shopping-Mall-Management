@@ -1,0 +1,105 @@
+﻿<div class="container mt-5">
+    <h3 class="mb-4">Karlılık Raporu</h3>
+    <div class="row g-3 mb-3">
+        <div class="col-md-2">
+            <label for="startDate" class="form-label">Başlangıç Tarihi</label>
+            <input type="date" class="form-control" id="startDate" required>
+        </div>
+
+        <div class="col-md-2">
+            <label for="endDate" class="form-label">Bitiş Tarihi</label>
+            <input type="date" class="form-control" id="endDate" required>
+        </div>
+
+        <div class="col-md-2">
+            <label for="rentType" class="form-label">Kira Tipi</label>
+            <select class="form-select" id="rentType">
+                <option value="">Tümü</option>
+            </select>
+        </div>
+
+        <div class="col-md-2">
+            <label for="tenantType" class="form-label">Kiracı Tipi</label>
+            <select class="form-select" id="tenantType">
+                <option value="">Tümü</option>
+            </select>
+        </div>
+
+        <div class="col-md-2">
+            <label for="sector" class="form-label">Sektör</label>
+            <select class="form-select" id="sector">
+                <option value="">Tümü</option>
+            </select>
+        </div>
+
+        <div class="col-md-2">
+            <label for="floorNumber" class="form-label">Kat</label>
+            <select class="form-select" id="floorNumber">
+                <option value="">Tümü</option>
+                <option value="-1">-1</option>
+                <option value="0">Zemin</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+        </div>
+
+        <div class="col-md-2">
+            <label for="facadeDirection" class="form-label">Cephe</label>
+            <select class="form-select" id="facadeDirection">
+                <option value="">Tümü</option>
+            </select>
+        </div>
+
+        <div class="col-md-2">
+            <label for="hasExtraStorage" class="form-label">Ekstra Depo</label>
+            <select class="form-select" id="hasExtraStorage">
+                <option value="">Tümü</option>
+                <option value="true">Evet</option>
+                <option value="false">Hayır</option>
+            </select>
+        </div>
+
+        <div class="col-md-2">
+            <label for="minSquareMeter" class="form-label">Min m²</label>
+            <input type="number" class="form-control" id="minSquareMeter">
+        </div>
+
+        <div class="col-md-2">
+            <label for="maxSquareMeter" class="form-label">Max m²</label>
+            <input type="number" class="form-control" id="maxSquareMeter">
+        </div>
+
+        <div class="col-md-2 d-flex align-items-end">
+            <button class="btn btn-primary w-100" onclick="getProfitabilityReport()">Filtrele</button>
+        </div>
+
+        <div class="col-md-2 d-flex align-items-end">
+            <button class="btn btn-success w-100" onclick="exportProfitabilityExcel()">Excel Aktar</button>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table id="reportTable" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Firma</th>
+                    <th>Vergi No</th>
+                    <th>Sektör</th>
+                    <th>Cephe</th>
+                    <th>Kiracı Tipi</th>
+                    <th>Kod</th>
+                    <th>Kat</th>
+                    <th>m²</th>
+                    <th>Kira Tipi</th>
+                    <th>Sabit Kira</th>
+                    <th>Ciro Bazlı Kira</th>
+                    <th>Depo Kirası</th>
+                    <th>Toplam Ciro</th>
+                    <th>Toplam Kira</th>
+                    <th>Kâr</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>

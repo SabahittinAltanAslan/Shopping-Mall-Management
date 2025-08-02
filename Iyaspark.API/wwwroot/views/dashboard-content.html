@@ -1,0 +1,52 @@
+﻿<div class="container mt-4">
+    <h3 class="mb-4">Yönetici Paneli - Dashboard</h3>
+
+    <!-- KPI Kartları -->
+    <div class="row mb-4" id="dashboardCards">
+        <div class="col-md-3">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">Toplam Kâr</h5>
+                    <p class="card-text" id="cardTotalProfit">₺0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h5 class="card-title">En Kârlı Kat</h5>
+                    <p class="card-text" id="cardTopFloor">-</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-info">
+                <div class="card-body">
+                    <h5 class="card-title">En Kârlı Cephe</h5>
+                    <p class="card-text" id="cardTopFacade">-</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-warning">
+                <div class="card-body">
+                    <h5 class="card-title">En Kârlı Kiracı</h5>
+                    <p class="card-text" id="cardTopTenant">-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grafikler -->
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <canvas id="floorProfitChart"></canvas>
+        </div>
+        <div class="col-md-6 mb-4">
+            <canvas id="facadeTrendChart"></canvas>
+        </div>
+        <div class="col-12 mb-4">
+            <canvas id="sectorComparisonChart"></canvas>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+wwwroot\contracts\2ec0703a-2c08-465f-8aea-d975dd689083_Document 16 (2).pdf
+wwwroot\contracts\3745b18a-52a0-45b3-9bcb-6cc18bf8cdbb_Document 12.pdf
+wwwroot\contracts\4bad08d2-6dd5-4102-b863-4e1131257057_furkanyildirimm32@gmail.com @furkanvero (1).pdf
+wwwroot\contracts\56764cc8-ff2f-40d6-8a94-308caf1bf6cc_Profile.pdf
+wwwroot\contracts\75b89356-ea7b-4a25-bb3e-737d3bca7c7b_Document.pdf
+wwwroot\contracts\77a7e2b7-2ca2-4198-9c03-1e1d28fe43bc_RızaFurkanYıldırımCv.pdf
+wwwroot\contracts\7d1645f5-c5e3-46bc-a605-516c1c247326_RızaFurkanYıldırımCv.pdf
+wwwroot\contracts\96688483-4fe6-45ae-a40b-5280e9124a0f_Profile.pdf
+wwwroot\contracts\a1c33fc1-2f33-4ea2-86f7-cdabddb0fc81_Document 12.pdf
+wwwroot\contracts\b6059ea3-df8c-4a0b-a1fc-bc4b20e8ea9f_furkanyildirimm32@gmail.com @furkanvero.pdf
+wwwroot\contracts\cdd3160c-3e4a-430a-9e24-b9e6b5169514_furkanyildirimm32@gmail.com @furkanvero.pdf
+wwwroot\contracts\d83c773b-3aaf-4e27-8b57-53be79de1b3c_RızaFurkanYıldırımCv.pdf
+wwwroot\contracts\db5f6c72-cbab-4e8d-9a60-49d4177310eb_RızaFurkanYıldırımCv.pdf
+wwwroot\contracts\ed0fc1fd-6a44-4e6f-b5a8-af3069dc6068_Profile.pdf
+wwwroot\js\contract.js
+wwwroot\js\dashboard.js
+wwwroot\js\guarantee.js
+wwwroot\js\layout.js
+wwwroot\js\login.js
+wwwroot\js\profitability-report.js
+wwwroot\js\rents.js
+wwwroot\js\revenue.js
+wwwroot\js\revenue-report.js
+wwwroot\js\tenant.js
+wwwroot\layout.html
+wwwroot\login.html
+wwwroot\views\contracts.html
+wwwroot\views\contracts-content.html
+wwwroot\views\dashboard.html
+wwwroot\views\dashboard-content.html
+wwwroot\views\guarantees.html
+wwwroot\views\guarantees-content.html
+wwwroot\views\profitability-report.html
+wwwroot\views\profitability-report-content.html
+wwwroot\views\rents.html
+wwwroot\views\rents-content.html
+wwwroot\views\revenue.html
+wwwroot\views\revenue-content.html
+wwwroot\views\revenue-report.html
+wwwroot\views\revenue-report-content.html
+wwwroot\views\tenants.html
+wwwroot\views\tenants-content.html

@@ -1,0 +1,59 @@
+﻿<div class="container mt-4">
+    <h3 class="mb-3">Kiracılar</h3>
+    <button class="btn btn-success mb-3" id="openCreateModal">+ Yeni Kiracı</button>
+
+    <table id="tenantTable" class="display table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Firma</th>
+                <th>Vergi No</th>
+                <th>m²</th>
+                <th>Kat</th>
+                <th>Sektör</th>
+                <th>Cephe</th>
+                <th>Tip</th>
+                <th>Ekstra Depo</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="tenantModal" tabindex="-1" aria-labelledby="tenantModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form id="tenantForm" class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tenantModalLabel">Kiracı</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="tenantId" />
+                <input type="text" class="form-control mb-2" placeholder="Firma Adı" id="companyName" required />
+                <input type="text" class="form-control mb-2" placeholder="Vergi No" id="taxNumber" required />
+                <input type="number" class="form-control mb-2" placeholder="Metrekare" id="squareMeter" required />
+                <input type="text" class="form-control mb-2" placeholder="Kod" id="floorCode" required />
+
+                <select class="form-control mb-2" id="floorLabel">
+                    <option value="-1">-1</option>
+                    <option value="Zemin">Zemin</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+
+                <select class="form-control mb-2" id="sector"></select>
+                <select class="form-control mb-2" id="facadeDirection"></select>
+                <select class="form-control mb-2" id="tenantType"></select>
+
+                <div class="form-check mt-2">
+                    <input class="form-check-input" type="checkbox" id="hasExtraStorage" />
+                    <label class="form-check-label">Ekstra Deposu Var</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </form>
+    </div>
+</div>
